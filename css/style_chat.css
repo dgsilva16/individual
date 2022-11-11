@@ -1,0 +1,141 @@
+.chat {
+    background-color: #eee
+}
+
+.chat-btn {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+    flex: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.chat-btn .close {
+    display: none
+}
+
+.chat-btn i {
+    transition: all 0.9s ease
+}
+
+#check:checked~.chat-btn i {
+    display: block;
+    pointer-events: auto;
+    transform: rotate(180deg)
+}
+
+#check:checked~.chat-btn .comment {
+    display: none
+}
+
+.chat-btn i {
+    font-size: 22px;
+    color: #fff !important
+}
+
+.chat-btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: blue;
+    color: #fff;
+    font-size: 22px;
+    border: none
+}
+
+.wrapper {
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    width: 245px;
+    background-color: #fff;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+#check:checked~.wrapper {
+    opacity: 1
+}
+
+.chat_header {
+    padding: 13px;
+    background-color: blue;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    color: #fff
+}
+
+.chat-form_chat {
+    padding: 30px;
+    flex: auto;
+    align-items: center;
+    align-self: auto;
+}
+
+.chat-form_chat input,
+textarea,
+.chat button {
+    margin-bottom: 10px;
+    flex: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.chat-form_chat textarea {
+    resize: none
+}
+
+.form-control:focus,
+.btn:focus {
+    box-shadow: none
+}
+
+.btn,
+.btn:focus,
+.btn:hover {
+    background-color: blue;
+    border: blue;
+    flex: auto;
+    align-items: center;
+    align-self: auto;
+    text-align: center;
+}
+
+#check {
+    display: none !important
+}
+
+
+
+.chat_h6{
+    flex: auto;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.chat_span{
+    flex: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.form-control{
+    flex: auto;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    align-self: auto;
+}
+
+.botao_chat{
+    flex: auto;
+    align-items: center;
+    text-align: center;
+}

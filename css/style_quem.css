@@ -1,0 +1,189 @@
+h3 {
+        
+    font-style:initial;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-top: 30px;           
+    letter-spacing: normal;
+    text-align:justify;
+    justify-items: center;
+    
+}
+
+h2 {
+
+        font-style:initial;
+        color:black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        padding-top: 30px;
+        font-style:oblique;
+        text-transform:capitalize;
+        margin-bottom: 20px;
+        letter-spacing: normal;
+}
+.elementor{ /* Seção Toda*/
+
+align-items: center;
+justify-content: center;
+width: 700px;
+height: 100px;
+padding: 20 10px;    
+padding-top: 150px;/*distancia entre itens um em cima do outro*/
+position: relative;
+margin-left: 20%;
+
+}
+.elementor h1{/*Texto Quem somos*/
+font-size: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:black;
+position:relative;
+
+}
+.contentBx h3{/*Texto dentro do card*/
+font-size: 15px;
+font-style:oblique;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:rgb(25, 27, 29);
+position:relative;
+padding-left: 1px;
+padding-top: 2px;
+text-transform:capitalize;
+margin-bottom: 20px;
+letter-spacing: 2px;
+
+
+}
+
+.contentBx p{/*Texto função de cada um */
+font-size: 10px;
+font-style:oblique;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:rgb(25, 27, 29);
+position:relative;
+padding-left: 0.5px;
+padding-top: 0.5px;
+text-transform:capitalize;
+margin-bottom: 15px;
+letter-spacing: 2px;
+}
+.baixo h1{  /*Texto Equipe*/
+font-size: 50px;
+font-style:oblique;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:black;
+position:relative;
+align-items: center;
+justify-content: center;
+padding-left: 550px;
+padding-top: 300px; /* Distancia entre os outros texto*/
+text-transform:capitalize;
+margin-bottom: 20px;
+letter-spacing: 2px;
+
+
+}
+
+.card{
+position: relative;
+width: 220px;
+height: 230px;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 10px;
+overflow:hidden;
+border-top: 2px solid rgba(243, 105, 220, 0.5);
+border-left: 2px solid rgba(196, 39, 169, 0.5); /* Como a Borda do card vai Ficar*/
+
+}
+
+.card a{
+text-decoration: none;
+color: black;
+}
+.card:hover{
+transform: translateY(0px);
+opacity: 1;
+
+}
+
+.card .imgBx{
+position:relative;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 1px;
+z-index: 1;
+border-radius: 50px;
+border-color: blueviolet;
+}
+.card .imgBx img{
+max-width: 80%;
+transition: 0.5s;
+width: 120px;
+height: 100px;
+margin-bottom: 20px;
+border-radius: 50px;
+padding-left: 5px;
+border-color: blueviolet;
+}
+.card:hover .imgBx img{
+max-width: 70%;
+border-radius: 50px;
+}
+main.cards{
+display:flex;
+padding: 100px;/*Distancia e largura*/
+}
+main.cards section.card{
+display: flex;
+flex-direction:column;/*Coluna do lado*/
+align-items: center;
+text-align: center;
+padding: 1rem 1.5rem;
+margin-left: 40px;/*Distancia entre os card*/
+box-shadow: 50px 50px 100px -50px rgb(156, 201, 243);/*sombra*/
+}
+
+main.cards section.card button{
+padding: 0.5rem 1rem;
+text-transform:uppercase;
+border-radius: 50px;
+border: 0;
+cursor:pointer;
+font-size: 90%;
+margin-top: 1px;
+border-top: 1px solid rgba(255, 255, 255, 0.5);
+border-left: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+span{
+font-style:oblique;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: blueviolet;
+}
+main.car button{
+padding-top: 10px;
+}
+
+main.card .contentbx{
+max-width: 20px;
+
+
+}
+
+
+
+@media screen and (max-width:720px){/*Quando chegar 720 a tela, ele vai mudar para coluna um em baixo do outro*/
+main.cards{
+flex-direction: column;
+}
+
+main.cards section.card{
+margin-left: 0;
+margin-bottom: 32px;
+}
+
+}

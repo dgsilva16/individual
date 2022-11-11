@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<!-- Coding by Multiwebpress-->
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style_index.css" />
+  <link rel="stylesheet" href="css/style_categoria.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+  <!-- ############################################ ORLANDO ############################################ -->
+  <link rel="stylesheet" href="./css/style_chat.css">
+  <!-- ############################################ ORLANDO ############################################ -->
+  <title> DEV : Iniciante </title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo001.png" alt="Logo Image">
+        </a>
+      </div>
+      <div class="hamburger">
+        <div class="bars1"></div>
+        <div class="bars2"></div>
+        <div class="bars3"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#categoria">Categorias</a></li>
+        <li><a href="#ferramentas">Ferramentas</a></li>
+        <li><a href="planos.html">Planos</a></li>
+        <div class="btn-dark">
+          <input type="checkbox" class="checkbox" id="chk" />
+          <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball" id="ball"></div>
+          </label>
+        </div>
+        <li>
+          <div class="search-box">
+            <input type="text" class="search-text" placeholder="Pesquise...">
+            <a class="search-btn">
+              <img src="img/loupe-blue.svg" alt="" class="loupe-blue" width="25px" height="25px">
+              <img src="img/loupe-white.svg" alt="" class="loupe-white" width="25px" height="25px">
+            </a>
+          </div>
+        </li>
+        <li><a class="login-button" href="./login.html">Login</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <section class="categoria">
+
+    <!--MENU LATERAL PARA SESSÕES-->
+    <div class="menu-lt">
+      <div class="categorias" id="categoria">CATEGORIAS</div>
+      <div class="item" id="html"><a href="#conthtml"> HTML5 <a></div>
+      <div class="item" id="css"><a href="#contcss"> CSS <a></div>
+      <div class="item" id="js"><a href="#contjs"> Java Script <a></div>
+      <div class="item" id="frr"><a href="#contferr"> Ferramentas <a></div>
+    </div>
+    <!--CONTEUDO DAS CATEGORIAS-->
+    <div class="div-maior">
+      <!--HTML-->
+      <div class="conthtml" id="conthtml">
+        <div class="text"><img src="img/icons8-html-64.png" alt="html">
+          <h1>HTML 5</h1>
+        </div> <br>
+        <p>Abaixo você verá todos os conteúdos sobre HTML, que utilizamos para nosso aprendizado e evolução com Dev Web.
+        </p>
+        <!--CARTÃO DOS CONTEUDOS-->
+        <div class="row">
+          <div class="card green">
+            <h2>Curso em Vídeo</h2> <br>
+            <p>Aqui você encontrará diversas videos aulas, <br>
+              com Gustavo Guanabara.</p>
+            <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/cursoemvideo.png" alt="" /></a>
+          </div>
+
+          <div class="card blue">
+            <h2>Rafaella Ballerini</h2> <br>
+            <p>De médica à programadora. Veja a Rafa em seus videos mega explicativos!</p>
+            <a href="https://www.youtube.com/c/rafaellaballerini">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/rafa.png" alt="" /></a>
+          </div>
+
+          <div class="card red">
+            <h2>Programador Espartano</h2> <br>
+            <p>Curso de Programação. <br> Programando desde a Grécia Antiga</p>
+            <a href="https://www.youtube.com/c/ProgramadorEspartano">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/espartano.jpg" alt="" /></a>
+          </div>
+        </div>
+        <!--FIM DOS CARTÕES-->
+      </div>
+      <br>
+      <hr class="hr1"> <br>
+      <!--CSS-->
+      <div class="contcss" id="contcss">
+        <div class="text"><img src="img/icons8-css-64.png" alt="css">
+          <h1>CSS 3</h1>
+        </div> <br>
+        <p>Tutoriais e aulas sobre CSS:</p>
+        <!--CARTÃO DOS CONTEUDOS-->
+        <div class="row">
+          <div class="card green">
+            <h2>Adriana Saty</h2>
+            <p>Descomplicando sua vida.</p>
+            <a href="https://www.youtube.com/c/AdrianaSaty">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/adriana.jpg" alt="" /></a>
+          </div>
+
+          <div class="card blue">
+            <h2>Sujeito Programador</h2>
+            <p>Video aulas e projetos na pratica.</p>
+            <a href="https://www.youtube.com/c/Sujeitoprogramador">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/sujeito.jpg" alt="" /></a>
+          </div>
+
+          <div class="card red">
+            <h2>Professor Edson Maia</h2>
+            <p>Ao Mestre com Carinho! <br> Didática impecável.</p>
+            <a href="https://www.youtube.com/c/ProfessorEdsonMaia">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/edson.jpg" alt="" /></a>
+          </div>
+        </div>
+        <!--FIM DOS CARTÕES-->
+      </div><br>
+      <hr class="hr1"> <br>
+      <!--JAVASCRIPT-->
+      <div class="contjs" id="contjs">
+        <div class="text"><img src="img/icons8-javascript-64.png" alt="js">
+          <h1>JAVA SCRIPT</h1>
+        </div> <br>
+        <p>Java Script pode ser um terror no começo mas, com um pouco de paciência e MUITO estudo você aprende! <br>
+          Alguns sites e video aulas que vão ajudar: </p>
+        <!--CARTÃO DOS CONTEUDOS-->
+        <div class="row">
+          <div class="card green">
+            <h2>Keven Jesus</h2> <br>
+            <p>Videos curtos e bem explicativos. <br>
+              Só Jesus mesmo na causa.</p>
+            <a href="https://www.youtube.com/c/kevenjesus">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/keven.jpg" alt="" /></a>
+          </div>
+
+          <div class="card blue">
+            <h2>Origamid</h2> <br>
+            <p>Explicação e exemplos na prática!</p>
+            <a href="https://www.youtube.com/c/Origamid">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/origamid.jpg" alt="" /></a>
+          </div>
+
+          <div class="card red">
+            <h2>Hora de Codar</h2>
+            <p>Bem humorado e dinamicos, com apresentação de Matheus Battisti. Java Script e muito mais!</p>
+            <a href="https://www.youtube.com/watch?app=desktop&v=hyMCPZNLXps">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/horadecodar.jpg" alt="" /></a>
+          </div>
+        </div>
+        <!--FIM DOS CARTÕES-->
+      </div>
+      <hr class="hr1">
+      <!--FERRAMENTAS-->
+      <div class="ferramentas" id="ferramentas"></div>
+      <div class="contferr" id="contferr">
+        <div class="text"><img src="img/icons8-toolkit-64.png" alt="ferramenta">
+          <h1>FERRAMENTAS</h1>
+        </div> <br>
+        <p>Essas são as ferramentas inseparáveis de um DEV:Iniciante</p>
+        <!--CARTÃO DOS CONTEUDOS-->
+        <div class="row">
+          <div class="card green">
+            <h2>GitHub</h2> <br>
+            <p>Uma das principais plataformas para você hospedar seu codigo e tirar dúvidas.</p>
+            <a href="https://github.com/">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/git.png" alt="" /></a>
+          </div>
+
+          <div class="card blue">
+            <h2>Visual Studio Code</h2> <br>
+            <p>VS Code para os mais intimos, sua ferramenta de edição, seu recanto de paz ou não!!</p>
+            <a href="https://code.visualstudio.com/">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/vscode.png" alt="" /></a>
+          </div>
+
+          <div class="card red">
+            <h2>CodeWars</h2>
+            <p>Site focado ao conhecimento. Aqui você verá uma vasta gama de linguagem de programação, <br>
+              com exercicios do Iniciante ao Mestre</p>
+            <a href="https://www.codewars.com/">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/codewar.png" alt="" /></a>
+          </div>
+        </div>
+        <!--FIM DOS CARTÕES-->
+        <br>
+        <hr class="hr1"> <br>
+        <!--CARTÃO DOS CONTEUDOS-->
+        <div class="row">
+          <div class="card green">
+            <h2>Stack Overflow</h2> <br>
+            <p>Um dos principais sites de conteudo massivo da web.</p>
+            <a href="https://stackoverflow.com/">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/stack.png" alt="" /></a>
+          </div>
+
+          <div class="card blue">
+            <h2>W3 Schools</h2> <br>
+            <p>Aprenda codigo com maior site de desenvolvimento do mundo. <br> Foi o que ela disse.</p>
+            <a href="https://www.w3schools.com/">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/w3.jpg" alt="" /></a>
+          </div>
+
+          <div class="card red">
+            <h2>Dev Media</h2>
+            <p>Site com intuito de formar desenvolvedores, com conteudo didático objetivo e facil compreensão.</p>
+            <a href="https://www.devmedia.com.br/">
+              <button class="btn">Acesse Aqui</button>
+              <img class="image" src="img/devmedia.png" alt="" /></a>
+          </div>
+        </div>
+        <!--FIM DOS CARTÕES-->
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- ############################################ ORLANDO ############################################ -->
+
+
+  <!-- LIBRAS -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <!-- LIBRAS -->
+
+
+  <!-- CHAT -->
+  <div class="chat">
+    <input type="checkbox" id="check"> <label class="chat-btn" for="check"> <i class="fa fa-commenting-o comment"></i>
+      <i class="fa fa-close close"></i> </label>
+    <div class="wrapper">
+      <div class="chat_header">
+        <h4 class="chat_h6">Suporte</h4>
+      </div>
+      <div class="text-center p-2">
+        <h5 class="chat_h6">Por favor, faça login</h5>
+      </div>
+      <div class="chat-form_chat"> <input type="text" class="form-control" placeholder="Email"> <input type="password"
+          class="form-control" placeholder="Senha"> <input class="botao_chat" type="submit" value="Acessar" />
+      </div>
+    </div>
+  </div>
+  <!-- CHAT-->
+
+  <!-- ############################################ ORLANDO ############################################ -->
+
+
+
+
+  <footer>
+    <div class="container-footer">
+      <div class="row-footer">
+        <!-- footer col-->
+        <div class="footer-col">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="quemsomos.html"> Quem somos </a></li>
+            <li><a href=""> nossos serviços </a></li>
+            <li><a href="categorias.html"> ferramentas </a></li>
+            <li><a href="planos.html"> programa de afiliados</a></li>
+          </ul>
+        </div>
+        <!--end footer col-->
+        <!-- footer col-->
+        <div class="footer-col">
+          <h4>Se inscreva!</h4>
+          <div class="form-sub">
+            <form>
+              <input type="email" placeholder="Digite o seu e-mail" required>
+              <button> inscreva</button>
+            </form>
+          </div>
+
+          <div class="medias-socias">
+            <a href="#"> <i class="fa fa-facebook"></i> </a>
+            <a href="#"> <i class="fa fa-instagram"></i> </a>
+            <a href="#"> <i class="fa fa-twitter"></i> </a>
+            <a href="#"> <i class="fa fa-linkedin"></i> </a>
+          </div>
+
+        </div>
+        <!--end footer col-->
+      </div>
+    </div>
+  </footer>
+  <script src="js/code_modo_escuro.js"></script>
+  <script src="js/code_categorias.js"></script>
+  <script src="js/code_index.js"></script>
+  <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,232 @@
+.logo{
+    padding: 0vh 3vw;
+    text-align: left;
+    width: 20vw;
+}
+
+.logo img{
+    height: auto;
+    width: 14rem;
+}
+
+
+
+body{
+    background: linear-gradient( 135deg,
+    #ee20d6 0%,
+    #0a2fb6 100%);
+}
+
+section {
+    
+    padding-top: 150px;
+    padding-left: 50px;
+
+
+}
+
+.oferta h1{
+    color: #fff;
+    font-size: 43px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    padding-bottom: 30px;
+    border-color: rgb(255, 254, 254);
+    text-align: center;
+}
+.oferta p {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.botão {
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.segundo{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background: rgb(177, 132, 214);
+    border-color: #000000;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #0f5ef1 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #06beec 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    font-size: 15px;
+    
+}
+.segundo:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background: rgb(88, 88, 221);
+    font-size: 15px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-position: 0;
+}
+.termos{
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+ h6{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+
+  
+.porque h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: auto;
+    padding-top: 25px;
+}
+aside{
+    text-align: center;
+    padding-top: 30px;
+
+}
+.list{
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-gap: 20px;
+  width:70%;
+  max-width: 800px;
+  padding-bottom: 50px;
+
+}
+.lista1 {
+    font-size: 15px;
+    position: relative;
+    width: 160px;
+    height: 220px;
+    border-radius: 200px;
+    overflow:hidden;
+    color: #fffefe;
+    
+}
+
+.imagem_matheus {padding-top: 15px;
+    width:100%;
+    height:100%;
+    max-width: 150px;
+    max-height: 90px;
+    border-radius: 80%;
+   
+}
+
+.container{
+    width:1100px;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.container .card{
+    width: 300px;
+    height: 400px;
+    padding: 10px 0;
+    text-align: center;
+   border-radius: 15px;
+   box-shadow: 2px 5px 15px black;
+   transition: transform 0.3s;
+   background: linear-gradient(135deg, #ee20d6 0% , #0a2fb6 100%);
+}
+ .container .card:hover{
+transform: scale(1.050);
+ }
+.container .card .card-title{
+    padding: 30px 20px;
+    border-bottom: 2px solid gray;
+
+}
+.container .card .card-title h2 {
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: yellow;
+
+}
+.container .card .card-title p span {
+    font-size: 40px;
+    padding: 0 5px;
+
+}
+.container .card .card-content ul{
+    padding: 10px 30px;
+    padding-bottom: 20px;
+
+}
+.container .card .card-content ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+.container .card .card-content ul li i {
+    margin-right: 4px;
+    
+
+}
+.container .card .card-content button {
+    width: 120px;
+    background: rgb(10, 10, 10);
+    color: #000000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.container .card .card-content button:hover{
+    background: #0d17a7;
+    letter-spacing: 1.2px;
+}
+
+
+.escolha{
+    text-align: center;
+    color: #fff;
+    
+}
+.escolha h2{
+    color:rgb(255, 255, 255);
+    padding-top: 20px;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+.escolha p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f7f7f7;
+}
+.container .card .card-content button a {
+    text-decoration: none;
+    color: #fffbfb;
+    font-size: 20px;
+}
